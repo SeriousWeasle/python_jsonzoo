@@ -1,0 +1,14 @@
+{
+    "farm": ["sheep", "pig", "rabbit", "horse", "cow", "unicorn", "chicken"],
+    "outback": ["kangaroo", "platypus", "crocodile", "koala", "cockatoo", "tiddalik", "echidna"],
+    "savanna": ["zebra", "hippo", "giraffe", "lion", "elephant", "gryphon", "timeless_savanna"],
+    "northern": ["bear", "skunk", "beaver", "moose", "fox", "sasquatch", "timeless_northern"],
+    "polar": ["penguin", "seal", "muskox", "polar bear", "walrus", "yeti", "timeless_polar"],
+    "jungle": ["monkey", "toucan", "gorilla", "panda", "tiger", "phoenix", "timeless_jungle"],
+    "jurassic": ["diplodocus", "stegosaurus", "raptor", "t-rex", "triceratops", "dragon", "timeless_jurassic"],
+    "ice age": ["wooly rhino", "giant sloth", "dire wolf", "saber tooth", "mammoth", "akhlut", "timeless_iceage"],
+    "city": ["raccoon", "pigeon", "rat", "squirrel", "opossum", "sewer turtle", "timeless_city"],
+    "mountain": ["goat", "cougar", "elk", "eagle", "coyote", "aatxe", "timeless_mountain"],
+    "moon": ["moonkey", "lunar tick", "tribble", "moonicorn", "luna moth", "jade rabbit", "timeless_moon"],
+    "mars": ["rock", "marsmot", "marsmoset", "rover", "martian", "marsmallow", "timeless_mars"]
+}

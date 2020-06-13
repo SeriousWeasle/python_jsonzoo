@@ -1,0 +1,13 @@
+Stats:
+-Copy stats
+-Get stats for legendary creatures [farm, outback, savanna, northern, polar, jungle, jurassic, ice age, city, mountain, moon, mars]
+-Check pigeon stats in-game
+-Check opossum level 5 stats (time awake) in-game
+
+Features:
+graph coins per time since last check
+animal probabilities
+animal heatmaps
+
+Workspace:
+Cleanup files and structuring

@@ -1,0 +1,951 @@
+{
+    "template":
+    {
+        "animal1":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ],
+        "animal2":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ],
+        "animal3":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ],
+        "special1":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ],
+        "special2":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ],
+        "mythical":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "farm":
+    {
+        "sheep":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 4, "cpm": 3},
+            {"awaketime": 9, "cpm": 3.4},
+            {"awaketime": 14, "cpm": 3.8},
+            {"awaketime": 19, "cpm": 4.2},
+            {"awaketime": 24, "cpm": 4.6},
+            {"awaketime": 29, "cpm": 6}
+        ],
+        "pig":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 5, "cpm": 3},
+            {"awaketime": 10, "cpm": 3.4},
+            {"awaketime": 15, "cpm": 3.8},
+            {"awaketime": 20, "cpm": 4.2},
+            {"awaketime": 25, "cpm": 4.6},
+            {"awaketime": 30, "cpm": 6}
+        ],
+        "rabbit":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 15, "cpm": 3},
+            {"awaketime": 20, "cpm": 3.4},
+            {"awaketime": 25, "cpm": 3.8},
+            {"awaketime": 30, "cpm": 4.2},
+            {"awaketime": 35, "cpm": 4.6},
+            {"awaketime": 40, "cpm": 6}
+        ],
+        "horse":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 90, "cpm": 5},
+            {"awaketime": 120, "cpm": 5.7},
+            {"awaketime": 150, "cpm": 6.4},
+            {"awaketime": 180, "cpm": 7.1},
+            {"awaketime": 210, "cpm": 7.8},
+            {"awaketime": 240, "cpm": 10}
+        ],
+        "cow":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 60, "cpm": 5},
+            {"awaketime": 90, "cpm": 5.7},
+            {"awaketime": 120, "cpm": 6.4},
+            {"awaketime": 150, "cpm": 7.1},
+            {"awaketime": 180, "cpm": 7.8},
+            {"awaketime": 210, "cpm": 10}
+        ],
+        "unicorn":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 180, "cpm": 7},
+            {"awaketime": 240, "cpm": 7.9},
+            {"awaketime": 300, "cpm": 8.8},
+            {"awaketime": 360, "cpm": 9.7},
+            {"awaketime": 420, "cpm": 10.6},
+            {"awaketime": 480, "cpm": 14}
+        ],
+        "chicken":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 5, "cpm": 5}
+        ]
+    },
+    "outback":
+    {
+        "kangaroo":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 18, "cpm": 4},
+            {"awaketime": 28, "cpm": 4.5},
+            {"awaketime": 38, "cpm": 5},
+            {"awaketime": 48, "cpm": 5.5},
+            {"awaketime": 58, "cpm": 6},
+            {"awaketime": 68, "cpm": 8}
+        ],
+        "platypus":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 9, "cpm": 4},
+            {"awaketime": 19, "cpm": 4.5},
+            {"awaketime": 29, "cpm": 5},
+            {"awaketime": 39, "cpm": 5.5},
+            {"awaketime": 49, "cpm": 6},
+            {"awaketime": 59, "cpm": 8}
+        ],
+        "crocodile":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 5, "cpm": 4},
+            {"awaketime": 15, "cpm": 4.5},
+            {"awaketime": 25, "cpm": 5},
+            {"awaketime": 35, "cpm": 5.5},
+            {"awaketime": 45, "cpm": 6},
+            {"awaketime": 55, "cpm": 8}
+        ],
+        "koala":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 85, "cpm": 6},
+            {"awaketime": 115, "cpm": 6.8},
+            {"awaketime": 145, "cpm": 7.6},
+            {"awaketime": 175, "cpm": 8.4},
+            {"awaketime": 205, "cpm": 9.2},
+            {"awaketime": 235, "cpm": 12.0}
+        ],
+        "cockatoo":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 105, "cpm": 6},
+            {"awaketime": 135, "cpm": 6.8},
+            {"awaketime": 165, "cpm": 7.6},
+            {"awaketime": 195, "cpm": 8.4},
+            {"awaketime": 225, "cpm": 9.2},
+            {"awaketime": 255, "cpm": 12.0}
+        ],
+        "tiddalik":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 210, "cpm": 8},
+            {"awaketime": 270, "cpm": 9},
+            {"awaketime": 330, "cpm": 10},
+            {"awaketime": 390, "cpm": 11},
+            {"awaketime": 450, "cpm": 12},
+            {"awaketime": 510, "cpm": 16}
+        ],
+        "echidna":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "savanna":
+    {
+        "zebra":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 25, "cpm": 5},
+            {"awaketime": 35, "cpm": 5.7},
+            {"awaketime": 45, "cpm": 6.4},
+            {"awaketime": 55, "cpm": 7.1},
+            {"awaketime": 65, "cpm": 7.8},
+            {"awaketime": 75, "cpm": 10}
+        ],
+        "hippo":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 8, "cpm": 5},
+            {"awaketime": 18, "cpm": 5.7},
+            {"awaketime": 28, "cpm": 6.4},
+            {"awaketime": 38, "cpm": 7.1},
+            {"awaketime": 48, "cpm": 7.8},
+            {"awaketime": 58, "cpm": 10}
+        ],
+        "giraffe":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 12, "cpm": 5},
+            {"awaketime": 22, "cpm": 5.7},
+            {"awaketime": 32, "cpm": 6.4},
+            {"awaketime": 42, "cpm": 7.1},
+            {"awaketime": 52, "cpm": 7.8},
+            {"awaketime": 62, "cpm": 10}
+        ],
+        "lion":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 80, "cpm": 7},
+            {"awaketime": 110, "cpm": 7.9},
+            {"awaketime": 140, "cpm": 8.8},
+            {"awaketime": 170, "cpm": 9.7},
+            {"awaketime": 200, "cpm": 10.6},
+            {"awaketime": 230, "cpm": 14}
+        ],
+        "elephant":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 115, "cpm": 7},
+            {"awaketime": 145, "cpm": 7.9},
+            {"awaketime": 175, "cpm": 8.8},
+            {"awaketime": 205, "cpm": 9.7},
+            {"awaketime": 235, "cpm": 10.6},
+            {"awaketime": 265, "cpm": 14}
+        ],
+        "gryphon":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 240, "cpm": 9},
+            {"awaketime": 300, "cpm": 10.2},
+            {"awaketime": 360, "cpm": 11.4},
+            {"awaketime": 420, "cpm": 12.6},
+            {"awaketime": 480, "cpm": 13.8},
+            {"awaketime": 540, "cpm": 18}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "northern":
+    {
+        "bear":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 9, "cpm": 6},
+            {"awaketime": 19, "cpm": 6.8},
+            {"awaketime": 29, "cpm": 7.6},
+            {"awaketime": 39, "cpm": 8.4},
+            {"awaketime": 49, "cpm": 9.2},
+            {"awaketime": 59, "cpm": 12}
+        ],
+        "skunk":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 17, "cpm": 6},
+            {"awaketime": 27, "cpm": 6.8},
+            {"awaketime": 37, "cpm": 7.6},
+            {"awaketime": 47, "cpm": 8.4},
+            {"awaketime": 57, "cpm": 9.2},
+            {"awaketime": 67, "cpm": 12}
+        ],
+        "beaver":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 17, "cpm": 6},
+            {"awaketime": 27, "cpm": 6.8},
+            {"awaketime": 37, "cpm": 7.6},
+            {"awaketime": 47, "cpm": 8.4},
+            {"awaketime": 57, "cpm": 9.2},
+            {"awaketime": 67, "cpm": 12}
+        ],
+        "moose":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 80, "cpm": 8},
+            {"awaketime": 110, "cpm": 9},
+            {"awaketime": 140, "cpm": 10},
+            {"awaketime": 170, "cpm": 11},
+            {"awaketime": 200, "cpm": 12},
+            {"awaketime": 230, "cpm": 16}
+        ],
+        "fox":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 110, "cpm": 8},
+            {"awaketime": 140, "cpm": 9},
+            {"awaketime": 170, "cpm": 10},
+            {"awaketime": 200, "cpm": 11},
+            {"awaketime": 230, "cpm": 12},
+            {"awaketime": 260, "cpm": 16}
+        ],
+        "sasquatch":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 270, "cpm": 10},
+            {"awaketime": 330, "cpm": 11.3},
+            {"awaketime": 390, "cpm": 12.6},
+            {"awaketime": 450, "cpm": 13.9},
+            {"awaketime": 510, "cpm": 15.2},
+            {"awaketime": 570, "cpm": 20}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "polar":
+    {
+        "penguin":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 33, "cpm": 7},
+            {"awaketime": 43, "cpm": 7.9},
+            {"awaketime": 53, "cpm": 8.8},
+            {"awaketime": 63, "cpm": 9.7},
+            {"awaketime": 73, "cpm": 10.6},
+            {"awaketime": 83, "cpm": 14}
+        ],
+        "seal":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 11, "cpm": 7},
+            {"awaketime": 21, "cpm": 7.9},
+            {"awaketime": 31, "cpm": 8.8},
+            {"awaketime": 41, "cpm": 9.7},
+            {"awaketime": 51, "cpm": 10.6},
+            {"awaketime": 61, "cpm": 14}
+        ],
+        "muskox":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 24, "cpm": 1},
+            {"awaketime": 34, "cpm": 2},
+            {"awaketime": 44, "cpm": 3},
+            {"awaketime": 54, "cpm": 4},
+            {"awaketime": 64, "cpm": 5},
+            {"awaketime": 74, "cpm": 6}
+        ],
+        "polar bear":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 100, "cpm": 9},
+            {"awaketime": 130, "cpm": 10.2},
+            {"awaketime": 160, "cpm": 11.4},
+            {"awaketime": 190, "cpm": 12.6},
+            {"awaketime": 220, "cpm": 13.8},
+            {"awaketime": 250, "cpm": 18}
+        ],
+        "walrus":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 80, "cpm": 9},
+            {"awaketime": 110, "cpm": 10.2},
+            {"awaketime": 140, "cpm": 11.4},
+            {"awaketime": 170, "cpm": 12.6},
+            {"awaketime": 200, "cpm": 13.8},
+            {"awaketime": 230, "cpm": 18}
+        ],
+        "yeti":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 300, "cpm": 11},
+            {"awaketime": 360, "cpm": 12.4},
+            {"awaketime": 420, "cpm": 13.8},
+            {"awaketime": 480, "cpm": 15.2},
+            {"awaketime": 540, "cpm": 16.6},
+            {"awaketime": 600, "cpm": 22}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "jungle":
+    {
+        "monkey":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 14, "cpm": 8},
+            {"awaketime": 29, "cpm": 9},
+            {"awaketime": 34, "cpm": 10},
+            {"awaketime": 49, "cpm": 11},
+            {"awaketime": 54, "cpm": 12},
+            {"awaketime": 69, "cpm": 16}
+        ],
+        "toucan":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 8, "cpm": 8},
+            {"awaketime": 23, "cpm": 9},
+            {"awaketime": 38, "cpm": 10},
+            {"awaketime": 53, "cpm": 11},
+            {"awaketime": 69, "cpm": 12},
+            {"awaketime": 83, "cpm": 16}
+        ],
+        "gorilla":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 22, "cpm": 8},
+            {"awaketime": 37, "cpm": 9},
+            {"awaketime": 52, "cpm": 10},
+            {"awaketime": 67, "cpm": 11},
+            {"awaketime": 82, "cpm": 12},
+            {"awaketime": 97, "cpm": 16}
+        ],
+        "panda":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 75, "cpm": 10},
+            {"awaketime": 105, "cpm": 11.3},
+            {"awaketime": 135, "cpm": 12.6},
+            {"awaketime": 165, "cpm": 13.9},
+            {"awaketime": 195, "cpm": 15.2},
+            {"awaketime": 225, "cpm": 20}
+        ],
+        "tiger":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 105, "cpm": 10},
+            {"awaketime": 135, "cpm": 11.3},
+            {"awaketime": 165, "cpm": 12.6},
+            {"awaketime": 195, "cpm": 13.9},
+            {"awaketime": 225, "cpm": 15.2},
+            {"awaketime": 255, "cpm": 20}
+        ],
+        "phoenix":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 330, "cpm": 12},
+            {"awaketime": 390, "cpm": 13.5},
+            {"awaketime": 450, "cpm": 15},
+            {"awaketime": 510, "cpm": 16.5},
+            {"awaketime": 570, "cpm": 18},
+            {"awaketime": 630, "cpm": 24}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "jurassic":
+    {
+        "diplodocus":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 10, "cpm": 9},
+            {"awaketime": 20, "cpm": 10.2},
+            {"awaketime": 30, "cpm": 11.4},
+            {"awaketime": 40, "cpm": 12.6},
+            {"awaketime": 50, "cpm": 13.8},
+            {"awaketime": 60, "cpm": 18}
+        ],
+        "stegosaurus":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 16, "cpm": 9},
+            {"awaketime": 26, "cpm": 10.2},
+            {"awaketime": 36, "cpm": 11.4},
+            {"awaketime": 46, "cpm": 12.6},
+            {"awaketime": 56, "cpm": 13.8},
+            {"awaketime": 66, "cpm": 18}
+        ],
+        "raptor":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 27, "cpm": 9},
+            {"awaketime": 37, "cpm": 10.2},
+            {"awaketime": 47, "cpm": 11.4},
+            {"awaketime": 57, "cpm": 12.6},
+            {"awaketime": 67, "cpm": 13.8},
+            {"awaketime": 77, "cpm": 18}
+        ],
+        "t-rex":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 110, "cpm": 11},
+            {"awaketime": 140, "cpm": 12.4},
+            {"awaketime": 170, "cpm": 13.8},
+            {"awaketime": 200, "cpm": 15.2},
+            {"awaketime": 230, "cpm": 16.6},
+            {"awaketime": 260, "cpm": 22}
+        ],
+        "triceratops":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 70, "cpm": 11},
+            {"awaketime": 100, "cpm": 12.4},
+            {"awaketime": 130, "cpm": 13.8},
+            {"awaketime": 160, "cpm": 15.2},
+            {"awaketime": 190, "cpm": 16.6},
+            {"awaketime": 220, "cpm": 22}
+        ],
+        "dragon":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 255, "cpm": 13},
+            {"awaketime": 315, "cpm": 14.7},
+            {"awaketime": 375, "cpm": 16.4},
+            {"awaketime": 435, "cpm": 18.1},
+            {"awaketime": 495, "cpm": 19.8},
+            {"awaketime": 555, "cpm": 26}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "ice age":
+    {
+        "wooly rhino":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 16, "cpm": 10},
+            {"awaketime": 26, "cpm": 11.3},
+            {"awaketime": 36, "cpm": 12.6},
+            {"awaketime": 46, "cpm": 13.9},
+            {"awaketime": 56, "cpm": 15.2},
+            {"awaketime": 66, "cpm": 20}
+        ],
+        "giant sloth":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 8, "cpm": 10},
+            {"awaketime": 18, "cpm": 11.3},
+            {"awaketime": 28, "cpm": 12.6},
+            {"awaketime": 38, "cpm": 13.9},
+            {"awaketime": 48, "cpm": 15.2},
+            {"awaketime": 58, "cpm": 20}
+        ],
+        "dire wolf":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 35, "cpm": 10},
+            {"awaketime": 45, "cpm": 11.3},
+            {"awaketime": 55, "cpm": 12.6},
+            {"awaketime": 65, "cpm": 13.9},
+            {"awaketime": 75, "cpm": 15.2},
+            {"awaketime": 85, "cpm": 20}
+        ],
+        "saber tooth":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 110, "cpm": 12},
+            {"awaketime": 140, "cpm": 13.5},
+            {"awaketime": 170, "cpm": 15},
+            {"awaketime": 200, "cpm": 16.5},
+            {"awaketime": 230, "cpm": 18},
+            {"awaketime": 260, "cpm": 24}
+        ],
+        "mammoth":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 75, "cpm": 12},
+            {"awaketime": 105, "cpm": 13.5},
+            {"awaketime": 135, "cpm": 15},
+            {"awaketime": 165, "cpm": 16.5},
+            {"awaketime": 195, "cpm": 18},
+            {"awaketime": 225, "cpm": 24}
+        ],
+        "akhlut":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 360, "cpm": 14},
+            {"awaketime": 420, "cpm": 15.8},
+            {"awaketime": 480, "cpm": 17.6},
+            {"awaketime": 540, "cpm": 19.4},
+            {"awaketime": 600, "cpm": 21.2},
+            {"awaketime": 660, "cpm": 28}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "city":
+    {
+        "raccoon":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 28, "cpm": 11},
+            {"awaketime": 38, "cpm": 12.4},
+            {"awaketime": 48, "cpm": 13.8},
+            {"awaketime": 58, "cpm": 15.2},
+            {"awaketime": 68, "cpm": 16.6},
+            {"awaketime": 78, "cpm": 22}
+        ],
+        "pigeon":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 17, "cpm": 11},
+            {"awaketime": 27, "cpm": 12.4},
+            {"awaketime": 37, "cpm": 13.8},
+            {"awaketime": 47, "cpm": 15.2},
+            {"awaketime": 57, "cpm": 16.6},
+            {"awaketime": 87, "cpm": 22}
+        ],
+        "rat":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 10, "cpm": 11},
+            {"awaketime": 20, "cpm": 12.4},
+            {"awaketime": 30, "cpm": 13.8},
+            {"awaketime": 40, "cpm": 15.2},
+            {"awaketime": 50, "cpm": 16.6},
+            {"awaketime": 60, "cpm": 22}
+        ],
+        "squirrel":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 115, "cpm": 13},
+            {"awaketime": 145, "cpm": 14.7},
+            {"awaketime": 175, "cpm": 16.4},
+            {"awaketime": 205, "cpm": 18.1},
+            {"awaketime": 235, "cpm": 19.8},
+            {"awaketime": 265, "cpm": 26}
+        ],
+        "opossum":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 70, "cpm": 13},
+            {"awaketime": 100, "cpm": 14.7},
+            {"awaketime": 130, "cpm": 16.4},
+            {"awaketime": 160, "cpm": 18.1},
+            {"awaketime": 192, "cpm": 19.8},
+            {"awaketime": 220, "cpm": 26}
+        ],
+        "sewer turtle":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 300, "cpm": 15},
+            {"awaketime": 360, "cpm": 16.9},
+            {"awaketime": 420, "cpm": 18.8},
+            {"awaketime": 480, "cpm": 20.7},
+            {"awaketime": 540, "cpm": 22.6},
+            {"awaketime": 600, "cpm": 30}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "mountain":
+    {
+        "goat":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 11, "cpm": 12},
+            {"awaketime": 21, "cpm": 13.5},
+            {"awaketime": 31, "cpm": 15},
+            {"awaketime": 41, "cpm": 16.5},
+            {"awaketime": 51, "cpm": 18},
+            {"awaketime": 61, "cpm": 24}
+        ],
+        "cougar":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 19, "cpm": 12},
+            {"awaketime": 29, "cpm": 13.5},
+            {"awaketime": 39, "cpm": 15},
+            {"awaketime": 49, "cpm": 16.5},
+            {"awaketime": 59, "cpm": 18},
+            {"awaketime": 69, "cpm": 24}
+        ],
+        "elk":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 26, "cpm": 12},
+            {"awaketime": 36, "cpm": 13.5},
+            {"awaketime": 46, "cpm": 15},
+            {"awaketime": 56, "cpm": 16.5},
+            {"awaketime": 66, "cpm": 18},
+            {"awaketime": 76, "cpm": 24}
+        ],
+        "eagle":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 100, "cpm": 14},
+            {"awaketime": 130, "cpm": 15.8},
+            {"awaketime": 160, "cpm": 17.6},
+            {"awaketime": 190, "cpm": 19.4},
+            {"awaketime": 220, "cpm": 21.2},
+            {"awaketime": 250, "cpm": 28}
+        ],
+        "coyote":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 80, "cpm": 14},
+            {"awaketime": 110, "cpm": 15.8},
+            {"awaketime": 140, "cpm": 17.6},
+            {"awaketime": 170, "cpm": 19.4},
+            {"awaketime": 200, "cpm": 21.2},
+            {"awaketime": 230, "cpm": 28}
+        ],
+        "aatxe":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 300, "cpm": 16},
+            {"awaketime": 360, "cpm": 18},
+            {"awaketime": 420, "cpm": 20},
+            {"awaketime": 480, "cpm": 22},
+            {"awaketime": 540, "cpm": 24},
+            {"awaketime": 600, "cpm": 32}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "moon":
+    {
+        "moonkey":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 16, "cpm": 9},
+            {"awaketime": 26, "cpm": 10.2},
+            {"awaketime": 36, "cpm": 11.4},
+            {"awaketime": 46, "cpm": 12.6},
+            {"awaketime": 56, "cpm": 13.8},
+            {"awaketime": 66, "cpm": 18}
+        ],
+        "lunar tick":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 8, "cpm": 9},
+            {"awaketime": 18, "cpm": 10.2},
+            {"awaketime": 28, "cpm": 11.4},
+            {"awaketime": 38, "cpm": 12.6},
+            {"awaketime": 48, "cpm": 13.8},
+            {"awaketime": 58, "cpm": 18}
+        ],
+        "tribble":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 35, "cpm": 9},
+            {"awaketime": 45, "cpm": 10.2},
+            {"awaketime": 55, "cpm": 11.4},
+            {"awaketime": 65, "cpm": 12.6},
+            {"awaketime": 75, "cpm": 13.8},
+            {"awaketime": 85, "cpm": 18}
+        ],
+        "moonicorn":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 110, "cpm": 11},
+            {"awaketime": 140, "cpm": 12.4},
+            {"awaketime": 170, "cpm": 13.8},
+            {"awaketime": 200, "cpm": 15.2},
+            {"awaketime": 230, "cpm": 16.6},
+            {"awaketime": 260, "cpm": 22}
+        ],
+        "luna moth":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 75, "cpm": 11},
+            {"awaketime": 105, "cpm": 12.4},
+            {"awaketime": 135, "cpm": 13.8},
+            {"awaketime": 165, "cpm": 15.2},
+            {"awaketime": 195, "cpm": 16.6},
+            {"awaketime": 225, "cpm": 22}
+        ],
+        "jade rabbit":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 360, "cpm": 1},
+            {"awaketime": 420, "cpm": 2},
+            {"awaketime": 480, "cpm": 3},
+            {"awaketime": 540, "cpm": 4},
+            {"awaketime": 600, "cpm": 5},
+            {"awaketime": 660, "cpm": 6}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    },
+    "mars":
+    {
+        "rock":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 9, "cpm": 10},
+            {"awaketime": 19, "cpm": 11.3},
+            {"awaketime": 29, "cpm": 12.6},
+            {"awaketime": 39, "cpm": 13.9},
+            {"awaketime": 49, "cpm": 15.2},
+            {"awaketime": 59, "cpm": 22}
+        ],
+        "marsmot":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 21, "cpm": 10},
+            {"awaketime": 31, "cpm": 11.3},
+            {"awaketime": 41, "cpm": 12.6},
+            {"awaketime": 51, "cpm": 13.9},
+            {"awaketime": 61, "cpm": 15.2},
+            {"awaketime": 71, "cpm": 22}
+        ],
+        "marsmoset":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 28, "cpm": 10},
+            {"awaketime": 38, "cpm": 11.3},
+            {"awaketime": 48, "cpm": 12.6},
+            {"awaketime": 58, "cpm": 13.9},
+            {"awaketime": 68, "cpm": 15.2},
+            {"awaketime": 78, "cpm": 22}
+        ],
+        "rover":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 85, "cpm": 12},
+            {"awaketime": 115, "cpm": 13.5},
+            {"awaketime": 145, "cpm": 15},
+            {"awaketime": 175, "cpm": 16.5},
+            {"awaketime": 205, "cpm": 18},
+            {"awaketime": 235, "cpm": 24}
+        ],
+        "martian":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 105, "cpm": 12},
+            {"awaketime": 135, "cpm": 13.5},
+            {"awaketime": 165, "cpm": 15},
+            {"awaketime": 195, "cpm": 16.5},
+            {"awaketime": 225, "cpm": 18},
+            {"awaketime": 255, "cpm": 24}
+        ],
+        "marsmallow":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 300, "cpm": 14},
+            {"awaketime": 360, "cpm": 15.8},
+            {"awaketime": 420, "cpm": 17.6},
+            {"awaketime": 480, "cpm": 19.4},
+            {"awaketime": 540, "cpm": 21.2},
+            {"awaketime": 600, "cpm": 28}
+        ],
+        "legendary":
+        [
+            {"awaketime": 0, "cpm": 0},
+            {"awaketime": 1, "cpm": 1},
+            {"awaketime": 2, "cpm": 2},
+            {"awaketime": 3, "cpm": 3},
+            {"awaketime": 4, "cpm": 4},
+            {"awaketime": 5, "cpm": 5},
+            {"awaketime": 6, "cpm": 6}
+        ]
+    }
+}
