@@ -18,7 +18,6 @@ if __name__ == "__main__":
 
     #start zoo handler for holding biome hanlders for handling habitat handlers which handle calculations
     zh = zoohandler(stats)
-    zh.calculateRevenue(1000)
     #start Tkinter stuff
     print("[Main] Initializing main window")
     root = Tk()

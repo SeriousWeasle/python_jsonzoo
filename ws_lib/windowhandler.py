@@ -27,6 +27,8 @@ class windowhandler:
         self.tab_parent.add(self.maintab, text="About")
         self.costcalc = ttk.Frame(self.tab_parent)
         self.tab_parent.add(self.costcalc, text="Cost Calculator")
+        self.revenuecalc = ttk.Frame(self.tab_parent)
+        self.tab_parent.add(self.revenuecalc, text="Revenue Calculator")
 
     def init_maintab(self):
         #about tab
@@ -39,6 +41,9 @@ class windowhandler:
         self.maintab_devbanner = Label(self.maintab_title, text="By: SeriousWeasle", font=mainfont).grid(row=1, column=0)
         #add frame to about tab
         self.maintab_title.grid(row=0, column=0)
-    
+    #TODO make this tab
     def init_costtab(self):
         print("[WindowManager] Initializing cost calculator tab")
+    
+    def init_revenuetab(self):
+        print("[WindowManager] Initializing revenue tab")

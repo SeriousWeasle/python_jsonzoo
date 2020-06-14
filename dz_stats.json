@@ -61,7 +61,7 @@
             {"awaketime": 5, "cpm": 5},
             {"awaketime": 6, "cpm": 6}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -280,7 +280,7 @@
             {"awaketime": 480, "cpm": 13.8},
             {"awaketime": 540, "cpm": 18}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -353,7 +353,7 @@
             {"awaketime": 510, "cpm": 15.2},
             {"awaketime": 570, "cpm": 20}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -426,7 +426,7 @@
             {"awaketime": 540, "cpm": 16.6},
             {"awaketime": 600, "cpm": 22}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -499,7 +499,7 @@
             {"awaketime": 570, "cpm": 18},
             {"awaketime": 630, "cpm": 24}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -572,7 +572,7 @@
             {"awaketime": 495, "cpm": 19.8},
             {"awaketime": 555, "cpm": 26}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -645,7 +645,7 @@
             {"awaketime": 600, "cpm": 21.2},
             {"awaketime": 660, "cpm": 28}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -718,7 +718,7 @@
             {"awaketime": 540, "cpm": 22.6},
             {"awaketime": 600, "cpm": 30}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -791,7 +791,7 @@
             {"awaketime": 540, "cpm": 24},
             {"awaketime": 600, "cpm": 32}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -864,7 +864,7 @@
             {"awaketime": 600, "cpm": 5},
             {"awaketime": 660, "cpm": 6}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},
@@ -937,7 +937,7 @@
             {"awaketime": 540, "cpm": 21.2},
             {"awaketime": 600, "cpm": 28}
         ],
-        "legendary":
+        "timeless":
         [
             {"awaketime": 0, "cpm": 0},
             {"awaketime": 1, "cpm": 1},

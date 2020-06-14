@@ -1,10 +1,18 @@
 Stats:
 -Copy stats
--Get stats for legendary creatures [farm, outback, savanna, northern, polar, jungle, jurassic, ice age, city, mountain, moon, mars]
+-Get stats for timeless creatures [farm, outback, savanna, northern, polar, jungle, jurassic, ice age, city, mountain, moon, mars]
 -Check pigeon stats in-game
 -Check opossum level 5 stats (time awake) in-game
+-Get rescue costs (start, increment, max)
+
+Fixes and patches:
+-Complete cost tab for calculating approximate cost for n animals
 
 Features:
-graph coins per time since last check
-animal probabilities
-animal heatmaps
+-Implement revenue calculating tab
+    -Total from all animals awake -> all asleep
+    -Total from all animals awake -> set amount of time
+    -Per animal for both above
+-Integrate heatmaps.py into jsonzoo.py
+    -Rebuild from scratch
+    -Compatability with old files
