@@ -16,10 +16,14 @@ if __name__ == "__main__":
     except:
         print("[MAIN][ERROR] Failed loading dz_stats.json, make sure file exists")
 
+    #start zoo handler for holding biome hanlders for handling habitat handlers which handle calculations
+    zh = zoohandler(stats)
+    zh.calculateRevenue(1000)
     #start Tkinter stuff
     print("[Main] Initializing main window")
     root = Tk()
-    root.title = "JSONZoo v1.0"
+    root.title("JSONZoo v1.0")
     root.minsize(640, 480)
     app = windowhandler(root)
     root.mainloop()
+    print("[Main] Exiting...")
