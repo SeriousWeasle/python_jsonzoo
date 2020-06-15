@@ -17,6 +17,7 @@ class windowhandler:
         #build tabs
         self.init_maintab()
         self.init_costtab()
+        self.init_revenuetab()
 
         self.tab_parent.pack(expand=1,fill="both")
 
@@ -36,9 +37,9 @@ class windowhandler:
         #make frame for title
         self.maintab_title = Frame(self.maintab)
         #put name, version and author in frame
-        self.maintab_namebanner = Label(self.maintab_title, text="JSONZoo", padx=10, pady=10, font=titlefont).grid(row=0, column=0)
-        self.maintab_versionnum = Label(self.maintab_title, text="v1.0", font=mainfont).grid(row=0, column=1)
-        self.maintab_devbanner = Label(self.maintab_title, text="By: SeriousWeasle", font=mainfont).grid(row=1, column=0)
+        Label(self.maintab_title, text="JSONZoo", padx=10, pady=10, font=titlefont).grid(row=0, column=0)
+        Label(self.maintab_title, text="v1.0", font=mainfont).grid(row=0, column=1)
+        Label(self.maintab_title, text="By: SeriousWeasle", font=mainfont).grid(row=1, column=0)
         #add frame to about tab
         self.maintab_title.grid(row=0, column=0)
     #TODO make this tab

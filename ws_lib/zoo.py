@@ -8,7 +8,7 @@ class habitathandler:
         self.name = name
         #for initialization set count and level to 0
         self.count = 0
-        self.level = 6
+        self.level = 0
         #get current stats from level
         self.currentstats = self.stats[self.level]
         print("[HabitatHandler] Assigned habitat for", self.name,"following stats:",self.currentstats)
@@ -40,6 +40,14 @@ class habitathandler:
     def getLevel(self):
         print("[HabitatHandler] Handling requests for level for", self.name)
         return self.level
+    
+    def calculateRevenue(self, time):
+        print("[HabitatHandler] Calculating revenue for animal",self.name,"for (t; lvl)",time,';',self.level)
+        if time < self.currentstats["awaketime"]:
+            revenue = self.currentstats['cpm'] * time
+        else:
+            revenue = self.currentstats['awaketime'] * self.currentstats['cpm']
+        return revenue
 
 class biomehandler:
     def __init__(self, stats, biomename):
@@ -61,13 +69,22 @@ class biomehandler:
     
     def getLevel(self, animal):
         return self.habitats[animal].getLevel()
+    
+    def calculateRevenues(self, time):
+        print("[BiomeHandler] Calculating revenue for biome",self.name,"for t=",time)
+        revenues = {}
+        for h in self.habitats:
+            revenues[h] = self.habitats[h].calculateRevenue(time)
+        return revenues
+
 
 class zoohandler:
     def __init__(self, stats):
         self.globalstats = stats
         self.biomehandlers = {}
         for b in stats:
-            self.biomehandlers[b] = biomehandler(stats[b], b)
+            if b != "template":
+                self.biomehandlers[b] = biomehandler(stats[b], b)
     
     def getStats(self, biome, animal):
         return self.biomehandlers[biome].getStats(animal)
@@ -80,3 +97,19 @@ class zoohandler:
     
     def getLevel(self, biome, animal):
         return self.biomehandlers[biome].getLevel(animal)
+    
+    def calcRevenueForAnimal(self, biome, animal, time):
+        stats = self.getStats(biome, animal)
+        if stats['awaketime'] > time:
+            coins = stats['cpm'] * time
+        else:
+            coins = stats['cpm'] * stats['awaketime']
+        return coins
+    
+    def calculateRevenues(self, time):
+        print("[ZooHandler] Starting calculation for revenue for zoo in t=",time)
+        revenues = {}
+        for b in self.biomehandlers:
+            revenues[b] = self.biomehandlers[b].calculateRevenues(time)
+        print("[ZooHandler] Finished revenue calculation for zoo")
+        return revenues
